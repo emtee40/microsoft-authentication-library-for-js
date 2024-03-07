@@ -2,6 +2,47 @@
   "name": "@azure/msal-common",
   "entries": [
     {
+      "date": "Thu, 07 Mar 2024 23:56:54 GMT",
+      "version": "14.7.2-beta.0",
+      "tag": "@azure/msal-common_v14.7.2-beta.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "msaljsbuilds@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "71e168e52f9592f1b909edabb1396521e8a98b58",
+            "comment": "Mark package for prerelease (beta)"
+          }
+        ],
+        "patch": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Minor cache cleanup"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Append default scopes for the cache lookup #6909"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-common",
+            "comment": "Bump eslint-config-msal to v0.0.0",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-common",
+            "comment": "Bump msal-test-utils to v0.0.1",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sat, 17 Feb 2024 01:49:05 GMT",
       "version": "14.7.1",
       "tag": "@azure/msal-common_v14.7.1",

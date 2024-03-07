@@ -2,6 +2,73 @@
   "name": "@azure/msal-browser",
   "entries": [
     {
+      "date": "Thu, 07 Mar 2024 23:56:54 GMT",
+      "version": "3.10.1-beta.0",
+      "tag": "@azure/msal-browser_v3.10.1-beta.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "msaljsbuilds@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "71e168e52f9592f1b909edabb1396521e8a98b58",
+            "comment": "Mark package for prerelease (beta)"
+          }
+        ],
+        "patch": [
+          {
+            "author": "dasau@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Fix compatibility issue with Nested App Auth and msal-react (#6892)"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Export IPerformanceClient and StubPerformanceClient"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Internal refactor of async storage"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Minor cache cleanup"
+          }
+        ],
+        "minor": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "59f803b11a4498f5f5eea8c1a03b865c4c55e4d0",
+            "comment": "Move preflightBrowserEnvironmentCheck to BrowserUtils"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump @azure/msal-common to v14.7.2-beta.0",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump eslint-config-msal to v0.0.0",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump msal-test-utils to v0.0.1",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sat, 17 Feb 2024 01:49:05 GMT",
       "version": "3.10.0",
       "tag": "@azure/msal-browser_v3.10.0",
